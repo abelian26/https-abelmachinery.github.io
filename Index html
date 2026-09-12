@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abel Machinery Database</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Abel Machinery Database</h1>
+    <p>Construction Machinery Information Center</p>
+</header>
+
+<nav>
+    <a href="#machines">Machines</a>
+    <a href="#brands">Brands</a>
+    <a href="#parts">Spare Parts</a>
+    <a href="#maintenance">Maintenance</a>
+    <a href="#fuel">Fuel Calculator</a>
+    <a href="#about">About</a>
+    <a href="admin.html">Admin</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="machines">
+
+    <h2>Machine Database</h2>
+    <input
+type="text"
+id="searchInput"
+onkeyup="searchMachines()"
+placeholder="Search machine..."
+class="search-box">
+
+<div class="machine-card machine">
+<img src="images/jcb3dx.jpg"
+alt="JCB 3DX"
+class="machine-image">
+        <h3>JCB 3DX EcoMAX</h3>
+
+        <p><b>Engine:</b> JCB EcoMAX 68.6 kW</p>
+
+        <p><b>Fuel Consumption:</b> 6 - 8 Liters/hour</p>
+
+        <p><b>Best Usage:</b></p>
+
+        <ul>
+            <li>Excavation</li>
+            <li>Loading</li>
+            <li>Trenching</li>
+            <li>Road works</li>
+        </ul>
+
+        <p><b>Performance:</b> Excellent fuel economy and high torque.</p>
+    </div>
+
+    <div class="machine-card machine">
+
+    <img src="images/sd300.jpg"
+    alt="SD300"
+    class="machine-image">
+
+    <h3>SD300 Wheel Loader</h3>
+
+</div>
+
+        <p><b>Operating Weight:</b> 10,000 kg</p>
+
+        <p><b>Fuel Consumption:</b> 10 - 14 Liters/hour</p>
+
+        <p><b>Best Usage:</b></p>
+
+        <ul>
+            <li>Loading aggregates</li>
+            <li>Stockpile management</li>
+            <li>Earthmoving</li>
+        </ul>
+
+        <p><b>Performance:</b> Strong breakout force and high productivity.</p>
+    </div>
+
+</section>
+<section id="maintenance">
+
+    <h2>Maintenance Schedules</h2>
+
+    <div class="maintenance-card">
+
+        <h3>JCB 3DX EcoMAX</h3>
+
+        <table>
+            <tr>
+                <th>Service Item</th>
+                <th>Interval</th>
+            </tr>
+
+            <tr>
+                <td>Engine Oil Change</td>
+                <td>500 Hours</td>
+            </tr>
+
+            <tr>
+                <td>Engine Oil Filter</td>
+                <td>500 Hours</td>
+            </tr>
+
+            <tr>
+                <td>Fuel Filter</td>
+                <td>500 Hours</td>
+            </tr>
+
+            <tr>
+                <td>Air Filter Inspection</td>
+                <td>Every 50 Hours</td>
+            </tr>
+
+            <tr>
+                <td>Hydraulic Oil</td>
+                <td>2000 Hours</td>
+            </tr>
+
+            <tr>
+                <td>Coolant Replacement</td>
+                <td>2000 Hours or 2 Years</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="maintenance-card">
+
+        <h3>Toyota Hilux LN170</h3>
+
+        <table>
+            <tr>
+                <th>Service Item</th>
+                <th>Interval</th>
+            </tr>
+
+            <tr>
+                <td>Engine Oil Change</td>
+                <td>5000 km</td>
+            </tr>
+
+            <tr>
+                <td>Oil Filter Replacement</td>
+                <td>5000 km</td>
+            </tr>
+
+            <tr>
+                <td>Fuel Filter Replacement</td>
+                <td>20,000 km</td>
+            </tr>
+
+            <tr>
+                <td>Air Filter Replacement</td>
+                <td>20,000 km</td>
+            </tr>
+
+            <tr>
+                <td>Timing Belt Replacement</td>
+                <td>100,000 km</td>
+            </tr>
+
+            <tr>
+                <td>Coolant Replacement</td>
+                <td>40,000 km</td>
+            </tr>
+        </table>
+
+    </div>
+
+</section>
+
+<section id="maintenance">
+
+    <h2>Maintenance Schedules</h2>
+
+    <div class="maintenance-card">
+
+        <h3>JCB 3DX EcoMAX</h3>
+
+        <table>
+            <tr>
+                <th>Service Item</th>
+                <th>Interval</th>
+            </tr>
+
+            <tr>
+                <td>Engine Oil Change</td>
+                <td>500 Hours</td>
+            </tr>
+
+            <tr>
+                <td>Engine Oil Filter</td>
+                <td>500 Hours</td>
+            </tr>
+
+            <tr>
+                <td>Fuel Filter</td>
+                <td>500 Hours</td>
+            </tr>
+
+            <tr>
+                <td>Air Filter Inspection</td>
+                <td>Every 50 Hours</td>
+            </tr>
+
+            <tr>
+                <td>Hydraulic Oil</td>
+                <td>2000 Hours</td>
+            </tr>
+
+            <tr>
+                <td>Coolant Replacement</td>
+                <td>2000 Hours or 2 Years</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="maintenance-card">
+
+        <h3>Toyota Hilux LN170</h3>
+
+        <table>
+            <tr>
+                <th>Service Item</th>
+                <th>Interval</th>
+            </tr>
+
+            <tr>
+                <td>Engine Oil Change</td>
+                <td>5000 km</td>
+            </tr>
+
+            <tr>
+                <td>Oil Filter Replacement</td>
+                <td>5000 km</td>
+            </tr>
+
+            <tr>
+                <td>Fuel Filter Replacement</td>
+                <td>20,000 km</td>
+            </tr>
+
+            <tr>
+                <td>Air Filter Replacement</td>
+                <td>20,000 km</td>
+            </tr>
+
+            <tr>
+                <td>Timing Belt Replacement</td>
+                <td>100,000 km</td>
+            </tr>
+
+            <tr>
+                <td>Coolant Replacement</td>
+                <td>40,000 km</td>
+            </tr>
+        </table>
+
+    </div>
+
+</section>
+<section id="fuel">
+
+    <h2>Fuel Consumption Calculator</h2>
+
+    <label>Fuel Consumption (Liters per Hour):</label>
+
+    <input type="number"
+           id="fuelRate"
+           placeholder="Example: 8"
+           class="search-box">
+
+    <label>Working Hours:</label>
+
+    <input type="number"
+           id="workingHours"
+           placeholder="Example: 10"
+           class="search-box">
+
+    <button onclick="calculateFuel()">
+        Calculate
+    </button>
+
+    <h3 id="fuelResult"></h3>
+
+</section>
+
+<section id="about">
+    <h2>About This Website</h2>
+
+    <p>
+        Abel Machinery Database provides construction machinery specifications,
+        fuel consumption data, maintenance information, and performance details.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>Email: your-email@example.com</p>
+</section>
+<section id="machines">
+    <h2>Machines Data</h2>
+
+    <div class="card">
+        <h3>CAT 320 Excavator</h3>
+        <p>Engine Power: 162 HP</p>
+        <p>Fuel Consumption: 12-18 L/hr</p>
+    </div>
+</section>
+
+<section id="brands">
+    <h2>Machine Brands</h2>
+
+    <ul>
+        <li>Caterpillar</li>
+        <li>JCB</li>
+        <li>Komatsu</li>
+        <li>Hyundai</li>
+        <li>Volvo</li>
+    </ul>
+</section>
+
+<section id="fuel">
+    <h2>Fuel Calculator</h2>
+
+    <input type="number" id="fuelRate"
+    placeholder="Fuel per hour">
+
+    <input type="number" id="workingHours"
+    placeholder="Working hours">
+
+    <button onclick="calculateFuel()">
+        Calculate
+    </button>
+
+    <h3 id="fuelResult"></h3>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>Email: abel@example.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Abel Machinery Database</p>
+</footer>
+
+</body>
+</html>
